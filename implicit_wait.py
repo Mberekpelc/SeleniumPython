@@ -18,5 +18,3 @@ print("Page title is: ", driver.title)
 
 driver.find_element(By.XPATH, "//h3[text()='Selenium')]").click()
 driver.quit()
-
-

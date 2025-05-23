@@ -21,7 +21,6 @@ assert text == "Sample alert"
 driver.quit()
 
 
-
 driver = webdriver.Chrome()
 driver.implicitly_wait(10)
 driver.get(url)
@@ -48,5 +47,4 @@ alert.send_keys("Selenium")
 text = alert.text
 alert.accept()
 assert text == "What is your tool of choice?"
-    
 driver.quit()

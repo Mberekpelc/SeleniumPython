@@ -25,4 +25,3 @@ print("Page title is: ", driver.title)
 
 searchbox.click()
 driver.quit()
-
