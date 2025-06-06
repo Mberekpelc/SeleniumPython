@@ -44,9 +44,6 @@ pipeline {
         }
     
     }
-        cleanup {
-            // Clean up resources if needed
-            echo 'Cleaning up...'
-        }
+       
     }
       
