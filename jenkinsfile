@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the code from the repository
-                git url: 
+                git url: 'https://github.com/Mberekpelc/SeleniumPython.git', branch: 'practice1'
             }
         }
         stage('Run Tests') {
