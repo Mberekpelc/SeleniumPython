@@ -31,11 +31,7 @@ pipeline {
         }
     }
     post {
-        always {        
-            // Archive test results and artifacts
-            junit 'tests/results.xml' // Adjust the path to your test results
-            archiveArtifacts artifacts: '**/target/*.jar', allowEmptyArchive: true
-        }
+
         success {
             echo 'Pipeline completed successfully!'
         }
