@@ -19,7 +19,6 @@ searchbox = driver.find_element(By.NAME, 'q')
 searchbox.send_keys("Selenium")
 searchbox.submit()
 
-
 searchbox= myWait.until(EC.presence_of_element_located((By.XPATH, "//h3[text()='Selenium']")))
 print("Page title is: ", driver.title)
 
