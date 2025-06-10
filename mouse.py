@@ -101,7 +101,6 @@ act.drag_and_drop_by_offset(maxslider, -40, 0).perform()
 time.sleep(3)
 driver.quit()
 
-
 ## Perform scroll actions 
 
 Service_obj =Service("/Users/Lawrence.Mberekpe/Workspace/Drivers/chromedriver")
