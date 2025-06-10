@@ -34,11 +34,9 @@ driver.maximize_window()
 driver.implicitly_wait(5)
 
 button = driver.find_element(By.XPATH, "//span[@class='context-menu-one btn btn-neutral']")
-
 act = ActionChains(driver)
 
 act.context_click(button).perform()
-act.scroll_by_amount()
 
 time.sleep(3)
 driver.quit()
